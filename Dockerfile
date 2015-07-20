@@ -26,7 +26,7 @@ RUN rm -rf ~/.config/oxidized/
 
 EXPOSE 8888
 
-VOLUME ["/etc/oxidized/"]
+VOLUME ["/root/.config/oxidized/"]
 
 ENTRYPOINT ["/usr/local/bin/oxidized"]
 
